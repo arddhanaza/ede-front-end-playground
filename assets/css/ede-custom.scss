@@ -235,8 +235,8 @@ body {
   }
 
   #btn-footer:hover {
-    background-color: $main-red !important;
-    filter: brightness(150%) saturate(150%) !important;
+    background-color: white !important;
+    color: $main-red !important;
     box-shadow: 0px 30px 50px -22px $main-red;
   }
 
