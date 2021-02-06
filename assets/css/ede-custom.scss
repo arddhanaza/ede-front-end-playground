@@ -5,6 +5,10 @@ $main-bg: #FAFAFA;
 $main-font-regular: 'Montserrat', sans-serif;
 $main-font-bold: 'Montserrat Bold', sans-serif;
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   background-color: $main-bg;
   color: $main-black;
