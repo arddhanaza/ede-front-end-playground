@@ -225,6 +225,29 @@ body {
   }
 }
 
+.our-team-card {
+  box-shadow: 0px 32px 67px -23px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 15px;
+  border: none;
+  overflow: hidden;
+}
+
+.card-table {
+  box-shadow: 0px 32px 67px -23px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 15px;
+  border: none;
+  overflow: scroll;
+  overflow: auto;
+
+  th {
+    color: $main-blue;
+  }
+
+  .head-of-division {
+    font-weight: bold;
+  }
+}
+
 #footer-section {
   background-color: $main-blue;
   color: white;
